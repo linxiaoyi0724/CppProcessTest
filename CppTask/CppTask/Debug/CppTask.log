@@ -1,6 +1,3 @@
-﻿  chapter2.cpp
-  Chapter3.cpp
-d:\vs2015_code\cpluspluslearning\cppprocesstest\cpptask\cpptask\chapter3.cpp(136): warning C4305: 'initializing': truncation from 'double' to 'float'
-  Generating Code...
+﻿  Chapter3.cpp
   CppTask.vcxproj -> D:\vs2015_code\CplusplusLearning\CppProcessTest\CppTask\Debug\CppTask.exe
   CppTask.vcxproj -> D:\vs2015_code\CplusplusLearning\CppProcessTest\CppTask\Debug\CppTask.pdb (Full PDB)
