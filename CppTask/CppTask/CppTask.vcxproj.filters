@@ -21,5 +21,11 @@
     <ClCompile Include="Chapter3.cpp">
       <Filter>Resource Files</Filter>
     </ClCompile>
+    <ClCompile Include="Chapter4.cpp">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter5.cpp">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
