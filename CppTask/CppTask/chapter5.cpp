@@ -114,11 +114,33 @@ return 0;
 
 
 
-
+/*   //Task 5
 #include <iostream>
 using namespace std;
 int main()
 {
-	cout << "hello world" << endl;
+	char* MonthNum[12] = { "January", "February", "March", "April", "May", "June", "July","August", "September","October","November", "December" };
+	int MonthSale[3][12];
+	int TotalSale = 0;
+	for (int i = 0; i < 3; i++)
+	{
+		for (int j = 0; j < 12; j++)
+		{
+			cout << "Please input " << i << " year" << MonthNum[j] << "slae: ";
+			cin >> MonthSale[i][j];
+		}
+	}
+
+	for (int m = 0; m < 3; m++)
+	{
+		for (int n = 0; n < 12; n++)
+		{
+			cout << MonthSale[m][n] << "	";
+			TotalSale += MonthSale[m][n];
+		}
+		cout << endl;
+	}
+	cout << "Three years sale value is " << TotalSale << endl;
 	return 0;
 }
+*/
