@@ -144,3 +144,96 @@ int main()
 	return 0;
 }
 */
+
+
+
+
+
+
+
+
+/*   task 6
+#include <iostream>
+#include <string>
+#include <cstdio>
+using namespace std;
+struct Car
+{
+	string manufacture;
+	int years;
+};
+
+int main()
+{
+	int number;
+	cout << "How many cars do you wish to catalog? ";
+	cin >> number;
+	cin.ignore();
+	Car* cars = new Car[number];
+
+	for (int i = 0; i < number; i++)
+	{
+		cout << "Car #: " << i << endl;
+		cout << "Please enter the made: ";
+		getline(cin,cars[i].manufacture);
+		cout << "Plearse enter the year made: ";
+		cin >> cars[i].years;
+		getchar();
+	}
+
+	cout << "Here is your collection: " << endl;
+	for (int j = 0; j < number; ++j)
+	{
+		cout << cars[j].years << " " << cars[j].manufacture << endl;
+	}
+	return 0;
+}
+*/
+
+
+
+
+
+/*   //task 7
+#include <iostream>
+#include <cstring>
+using namespace std;
+int main()
+{
+	char words[30];
+	int count = 0;
+	cout << "Enter words (to stop, type the word done): " << endl;
+	cin >> words;
+	while (strcmp(words,"done"))
+	{
+		cin >> words;
+		++count;
+	}
+	cout << "You entered a total of " << count << " words"<<endl;
+	return 0;
+}
+*/
+
+
+
+
+
+/*  //task 8
+#include <iostream>
+#include <string>
+using namespace std;
+int main()
+{
+	string words;
+	int count = 0;
+	cout << "Enter words (to stop, type the word done): " << endl;
+	cin >> words;
+	while (words != "done")
+	{
+		cin >> words;
+		++count;
+	}
+	cout << "You entered a total of " << count << " words." << endl;
+	return 0;
+}
+*/
