@@ -237,3 +237,33 @@ int main()
 	return 0;
 }
 */
+
+
+
+
+
+
+
+/*  task 9
+#include <iostream>
+using namespace std;
+int main()
+{
+	int num = 0;
+	cout << "please input one number: " << endl;
+	cin >> num;
+	for (int i = 1; i <= num; i++)
+	{
+		for (int j = num; j > i; j--)
+		{
+			cout << ".";
+		}
+		for (int m = 1; m <= i; m++)
+		{
+			cout << "*";
+		}
+		cout << endl;
+	}
+	return 0;
+}
+*/
