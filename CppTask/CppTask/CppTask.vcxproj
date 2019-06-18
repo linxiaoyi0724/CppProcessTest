@@ -23,6 +23,7 @@
     <ClCompile Include="Chapter3.cpp" />
     <ClCompile Include="Chapter4.cpp" />
     <ClCompile Include="chapter5.cpp" />
+    <ClCompile Include="Chapter6.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{25DD84F8-8AA6-4792-9D31-C5BE034422D3}</ProjectGuid>

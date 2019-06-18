@@ -27,5 +27,8 @@
     <ClCompile Include="chapter5.cpp">
       <Filter>Resource Files</Filter>
     </ClCompile>
+    <ClCompile Include="Chapter6.cpp">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
